@@ -1,9 +1,8 @@
 var express = require('express');
 var router = express.Router();
 
-/* GET home page. */
+/* GET request for music homepage */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Share Review' });
+  res.render('gaming_platform', { title: 'Music Home' });
 });
-
 module.exports = router;
