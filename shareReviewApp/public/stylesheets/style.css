@@ -21,7 +21,7 @@ a {
     display: none;  /* Safari and Chrome */
 }
 
-.card {
+div.card {
   flex: 0 0 auto;
   height: 400px;
   width: 300px;
@@ -71,3 +71,5 @@ div.login-bar{
   justify-content: flex-end;
   background-color: : gray;
 }
+
+.cover {object-fit: stretch;}
