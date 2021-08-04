@@ -3,6 +3,71 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
+h1{
+  font-family: 'Do Hyeon', sans-serif;
+}
+
 a {
   color: #00B7FF;
+}
+
+.scrolling-wrapper-flexbox {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+.scrolling-wrapper-flexbox::-webkit-scrollbar {
+    display: none;  /* Safari and Chrome */
+}
+
+.card {
+  flex: 0 0 auto;
+  height: 400px;
+  width: 300px;
+}
+
+nav.top_nav_bar{
+
+}
+
+nav > ul {
+  list-style-type: none;
+  margin: 0;
+  background-color: #32a866;
+  height: 24px;
+}
+
+nav > ul:hover{
+  li{
+    color:grey;
+  }
+}
+
+nav li{
+  display: inline;
+  padding: 8px 8px 8px 8px;
+  color: white;
+  font-size: 20px;
+}
+
+nav li:hover{
+  background-color: gray;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+  text-decoration: none;
+  color: white;
+}
+
+div.login-bar{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  background-color: : gray;
 }
