@@ -73,3 +73,11 @@ div.login-bar{
 }
 
 .cover {object-fit: stretch;}
+
+ul.library_list li{
+  display:block;
+}
+
+.grey{
+  background-color: gray;
+}
